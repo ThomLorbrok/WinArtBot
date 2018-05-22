@@ -14,14 +14,9 @@ bot.on('message', message => {
         message.reply("pong");
         console.log('ping pong');
     }
-
-    if (message.content === prefix + "help"){
-        message.channel.sendMessage("Un autre staff va mieux vous aider");
-        console.log("Rigolo");
-    }
     
     if (message.content === prefix + "help"){
-        message.channel.sendMessage("Je rigole voilà les commandes : -help , -Google , -infobot , -clear");
+        message.channel.sendMessage("Voilà les commandes : -help , -Google , -infobot , -clear");
         console.log("Help");
     }
 
@@ -31,7 +26,7 @@ bot.on('message', message => {
     }
 
     if (message.content === prefix + "infobot"){
-        message.channel.sendMessage("Il a été crée et développer par thom avec ses plus grands soins !");
+        message.channel.sendMessage("Il a été crée et développer par BotCréator avec ses plus grands soins !");
         console.log("Commande Validé");
     }
     
