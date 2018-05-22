@@ -16,7 +16,7 @@ bot.on('message', message => {
     }
     
     if (message.content === prefix + "help"){
-        message.channel.sendMessage("Voilà les commandes : -help , -Google , -infobot , -clear");
+        message.channel.sendMessage("Voilà les commandes : <help , <Google , <infobot , <clear");
         console.log("Help");
     }
 
